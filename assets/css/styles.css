@@ -370,28 +370,73 @@ img {
 .skills_html {
   width: 80%;
 }
-.skills_js {
-  width: 90%;
-}
-.skills_react {
-  width: 70%;
-}
-.skills_angular {
+.skills_css {
   width: 60%;
 }
-
+.skills_js {
+  width: 70%;
+}
 .skills_php {
   width: 80%;
 }
-.skills_node {
+
+
+.skills_csharp {
+  width: 80%;
+}
+.skills_sql {
+  width: 80%;
+}
+.skills_linux {
   width: 70%;
 }
-.skills_firebase {
+.skills_python {
+  width: 75%;
+}
+
+/* ===== LANGUAGE =====*/
+.language_container {
+  row-gap: 2rem;
+}
+
+.language_subtitle {
+  font-size: var(--h3-font-size);
+  color: var(--first-color-dark);
+  margin-bottom: var(--mb-2);
+}
+
+.language_data {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 var(--mb-2);
+  margin-bottom: var(--mb-4);
+}
+
+.language_name {
+  text-transform: uppercase;
+}
+
+.language_bar {
+  position: absolute;
+  bottom: -.75rem;
+  height: .25rem;
+  background-color: var(--first-color);
+}
+
+.language_french{
+  width: 95%;
+}
+.language_tamil{
+  width: 95%;
+}
+.language_english{
   width: 90%;
 }
-.skills_python {
-  width: 60%;
+.language_spanish{
+  width: 75%;
 }
+
 
 /* ===== EDUCATION =====*/
 .education_container {
