@@ -666,6 +666,14 @@ img {
   color: var(--first-color-lighten);
 }
 
+.works_description {
+  font-size: var(--smaller-font-size);
+  color: var(--first-color-lighten);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  text-align: center;
+}
+
 .works_img:hover .works_data {
   bottom: 0;
 }
