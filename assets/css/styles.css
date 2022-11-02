@@ -12,10 +12,10 @@
   --font-bold:700;
 
   /*===== Colors =====*/
-  --first-color: #CC4B2C;
-  --first-color-dark: #662616;
-  --first-color-darken: #290F09;
-  --text-color: #54423D;
+  --first-color: #C1121F;
+  --first-color-dark: #000000;
+  --first-color-darken: #003049;
+  --text-color: #000000;
   --first-color-light: #EAE7E6;
   --first-color-lighten: #FFFAFA;
 
@@ -98,24 +98,6 @@ img {
 .section {
   padding: 4rem 0 2rem;
 }
-
-/* .section-title {
-  font-size: var(--h1-font-size);
-  color: var(--first-color);
-  margin-top: 0;
-  margin-bottom: var(--mb-3);
-  text-align: center;
-}
-
-.section-subtitle {
-  display: block;
-  font-size: var(--small-font-size);
-  color: var(--first-color-darken);
-  text-align: center;
-  font-weight: var(--font-bold);
-  margin-bottom: .25rem;
-} */
-
 
 .section-title {
   display: block;
@@ -334,7 +316,7 @@ img {
 
 .about_information-title {
   font-size: var(--h3-font-size);
-  color: var(--first-color-dark);
+  color: var(--first-color-darken);
   margin-bottom: var(--mb-2);
 }
 
@@ -596,7 +578,7 @@ img {
 
 .services_title {
   font-size: 1.25rem;
-  color: var(--first-color-dark);
+  color: var(--first-color-darken);
   margin-bottom: var(--mb-1);
 }
 
@@ -757,6 +739,7 @@ img {
 .footer_copy {
   font-size: var(--small-font-size);
   color: var(--text-color);
+  font-weight: var(--font-semi-bold);
 }
 
 /* ===== MEDIA QUERIES=====*/
