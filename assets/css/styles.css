@@ -668,7 +668,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(204, 75, 44, .7);
+  background: rgba(193, 18, 31, .7);
   border-radius: .5rem;
   transition: .3s;
 }
